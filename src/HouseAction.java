@@ -15,17 +15,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class HouseAction {
-
     // a) список квартир, имеющих заданное число комнат
     public List<House> findByRooms(List<House> houses, int rooms) {
         return houses.stream().filter(h -> h.getRooms() == rooms).collect(Collectors.toList());
     }
-
     // b) квартиры с заданным числом комнат и этажом в заданном промежутке
     public List<House> findByRoomsAndFloorRange(List<House> houses, int rooms, int minFloor, int maxFloor) {
         return houses.stream().filter(h -> h.getRooms() == rooms).filter(h -> h.getFloor() >= minFloor && h.getFloor() <= maxFloor).collect(Collectors.toList());
     }
-
     // c) квартиры с площадью, превосходящей заданную
     public List<House> findByAreaGreaterThan(List<House> houses, double minArea) {
         return houses.stream().filter(h -> h.getArea() > minArea).collect(Collectors.toList());

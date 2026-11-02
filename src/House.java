@@ -42,6 +42,7 @@ public class House {
         this.buildingType = buildingType;
         this.lifetime = lifetime;
     }
+
     public long getId() { return id; }
     public int getFlatNumber() { return flatNumber; }
     public double getArea() { return area; }

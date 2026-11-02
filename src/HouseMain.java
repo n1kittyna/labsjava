@@ -3,7 +3,6 @@ import java.util.List;
 
 public class HouseMain {
     public static void main(String[] args) {
-
         List<House> houses = new ArrayList<>();
         houses.add(new House(1, 5, 56.4, 3, 2, "Ленина", "панельный", 50));
         houses.add(new House(2, 12, 78.2, 5, 3, "Пушкина", "кирпичный", 80));
