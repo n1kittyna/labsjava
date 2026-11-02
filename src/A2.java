@@ -19,7 +19,6 @@ public class A2 {
         String result = null;
 
         /*Поиск первого числа с возрастающими цифрами*/
-
         for (String numStr : numbers) {
             boolean isAscending = true;
 
