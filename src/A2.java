@@ -18,7 +18,7 @@ public class A2 {
 
         String result = null;
 
-        /**Поиск первого числа с возрастающими цифрами*/
+        /*Поиск первого числа с возрастающими цифрами*/
 
         for (String numStr : numbers) {
             boolean isAscending = true;
@@ -45,7 +45,6 @@ public class A2 {
         printDevInf();
         scanner.close();
     }
-
     private static void printDevInf() {
         String DevName = "Никитина";
         LocalDateTime receivedDate = LocalDateTime.of(2026, 10, 29, 17, 0, 0);
