@@ -21,7 +21,6 @@ public class Zadanie1B {
         }
         scanner.close();
     }
-
     private static boolean isPrime(int num) {
         if (num <= 1) {
             return false;

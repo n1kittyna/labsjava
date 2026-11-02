@@ -4,7 +4,6 @@ import java.time.format.DateTimeFormatter;
 
 public class Zadanie1A {
     public static void main(String[] args) {
-
         String DevName = "Никитина";
         LocalDateTime receivedDate = LocalDateTime.of(2026, 10, 29, 17, 0, 0);
         LocalDateTime submissionDate = LocalDateTime.now();
